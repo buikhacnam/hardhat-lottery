@@ -8,6 +8,19 @@ Then the contract will randomly select a winner.
 
 Winner is automatically selected by the contract every some amount of time. 
 
+# Events
+
+Add events to smart contract whenever we update dynamic data.
+
+Events allow you to print stuff to the log.
+
+Smart contracts cannot access logs, so it's cheaper and  we can print important stuff without the need of saving it to the storage variable of smart contract which consumes gas.
+
+# Chainlink VRF
+
+Get a Random Number: https://docs.chain.link/docs/get-a-random-number/
+
+Example vrf subscription: https://vrf.chain.link/rinkeby/6712
 
 # Advanced Sample Hardhat Project
 
