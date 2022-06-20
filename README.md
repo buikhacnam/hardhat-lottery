@@ -22,6 +22,12 @@ Get a Random Number: https://docs.chain.link/docs/get-a-random-number/
 
 Example vrf subscription: https://vrf.chain.link/rinkeby/6712
 
+# Chainlink Keepers
+
+Document referrence: https://docs.chain.link/docs/chainlink-keepers/introduction/
+
+Example of keeper: https://keepers.chain.link/rinkeby/1323
+
 # Advanced Sample Hardhat Project
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
