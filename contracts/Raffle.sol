@@ -145,6 +145,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
     ) external override {
         (bool upkeepNeeded, ) = checkUpkeep("");
 
+        // do we need check this, I thought performUpkeep will only fire when checkUpkeep return true?
         if (!upkeepNeeded) {
             revert Raffle__UpkeepNotNeeded(
                 address(this).balance,
