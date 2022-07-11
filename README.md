@@ -28,6 +28,12 @@ Document referrence: https://docs.chain.link/docs/chainlink-keepers/introduction
 
 Example of keeper: https://keepers.chain.link/rinkeby/1323
 
+# Pick A Winner Script in Localhost
+
+```
+yarn hardhat run scripts/mockOffchain.ts --network localhost
+```
+
 # Advanced Sample Hardhat Project
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
