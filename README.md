@@ -8,6 +8,10 @@ Then the contract will randomly select a winner.
 
 Winner is automatically selected by the contract every some amount of time. 
 
+The contract is deployed on Rinkeby testnet.
+
+More details: https://rinkeby.etherscan.io/address/0x6b44c0bd250af4fa94771b964f4e05c2f299e181
+
 # Events
 
 Add events to smart contract whenever we update dynamic data.
